@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Portfolio/Portfolio.iml" filepath="$PROJECT_DIR$/Portfolio/Portfolio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Portfolio1.iml" filepath="$PROJECT_DIR$/Portfolio1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Portfolio/spring_tutorials/spring_example_collection_injection/spring_example_collection_injection.iml" filepath="$PROJECT_DIR$/Portfolio/spring_tutorials/spring_example_collection_injection/spring_example_collection_injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Portfolio/spring_tutorials/spring_example_inner_beans/spring_example_inner_beans.iml" filepath="$PROJECT_DIR$/Portfolio/spring_tutorials/spring_example_inner_beans/spring_example_inner_beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Portfolio/spring_tutorials/spring_tutorial/spring_tutorial.iml" filepath="$PROJECT_DIR$/Portfolio/spring_tutorials/spring_tutorial/spring_tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Portfolio/spring_tutorials/spring_tutorials.iml" filepath="$PROJECT_DIR$/Portfolio/spring_tutorials/spring_tutorials.iml" />
+    </modules>
+  </component>
+</project>
