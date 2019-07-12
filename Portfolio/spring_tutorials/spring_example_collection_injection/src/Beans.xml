@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="exampleBean1" class="exampleBean">
+        <property name="example" value="This is an Example"/>
+    </bean>
+
+    <bean id="emptyExampleBean" class="exampleBean">
+        <property name="example" value=""/>
+    </bean>
+
+    <bean id="nullExampleBean" class="exampleBean">
+        <property name="example"><null/></property>
+    </bean>
+
+    <bean id="javaCollection" class="JavaCollection">
+        <property name="addressList">
+            <list>
+                <ref bean="exampleBean1"/>
+                <value>ahB</value>
+                <value>ahC</value>
+                <value>ahA</value>
+            </list>
+        </property>
+
+        <property name="addressSet">
+            <set>
+                <value>ahA</value>
+                <value>ahB</value>
+                <value>ahC</value>
+                <value>ahA</value>
+                <ref bean="nullExampleBean"/>
+            </set>
+        </property>
+
+        <property name="addressMap">
+            <map>
+                <entry key="1" value="ahA"/>
+                <entry key="2" value="ahB"/>
+                <entry key="3" value="ahC"/>
+                <entry key="4" value="ahA"/>
+                <entry key="5" value-ref="emptyExampleBean"/>
+            </map>
+        </property>
+
+        <property name="addressProp">
+            <props>
+                <prop key="eins">ahA</prop>
+                <prop key="eins">ahA</prop>
+                <prop key="zwei">ahB</prop>
+                <prop key="drei">ahC</prop>
+                <prop key="vier">ahC</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
