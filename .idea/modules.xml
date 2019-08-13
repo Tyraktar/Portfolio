@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_example_JavaConfig/spring_example_annotationConfig.iml" filepath="$PROJECT_DIR$/spring_example_JavaConfig/spring_example_annotationConfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_tutorials/spring_example_collection_injection/spring_example_collection_injection.iml" filepath="$PROJECT_DIR$/spring_tutorials/spring_example_collection_injection/spring_example_collection_injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_example_events/spring_example_events.iml" filepath="$PROJECT_DIR$/spring_example_events/spring_example_events.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_tutorials/spring_example_inner_beans/spring_example_inner_beans.iml" filepath="$PROJECT_DIR$/spring_tutorials/spring_example_inner_beans/spring_example_inner_beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_example_javaConfig_BeanDependeciesInjection/spring_example_javaConfig_BeanDependeciesInjection.iml" filepath="$PROJECT_DIR$/spring_example_javaConfig_BeanDependeciesInjection/spring_example_javaConfig_BeanDependeciesInjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_tutorials/spring_tutorial/spring_tutorial.iml" filepath="$PROJECT_DIR$/spring_tutorials/spring_tutorial/spring_tutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_tutorials/spring_tutorial_src/spring_tutorial_src.iml" filepath="$PROJECT_DIR$/spring_tutorials/spring_tutorial_src/spring_tutorial_src.iml" />
     </modules>
